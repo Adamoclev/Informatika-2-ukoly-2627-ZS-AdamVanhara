@@ -1,0 +1,32 @@
+﻿# Ignorování souborů specifických pro Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pyc
+
+# Virtuální prostředí
+.venv/
+venv/
+env/
+ENV/
+
+# Pokrytí kódu a testy
+.coverage
+htmlcov/
+
+# Editor VS Code a IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+*.swp
+*~
+
+# Obecné systémové soubory
+.DS_Store
+Thumbs.db
+
+# Skripty vyučujícího
+compare_branches.py
+branch_comparison.md
