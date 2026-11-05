@@ -10,3 +10,5 @@ class TestFunkci(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+def hello_world() -> str:
+    return "Hello world!"
